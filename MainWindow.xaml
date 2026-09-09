@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#FFB8BF7B">
-        <Label Content="Hello world!" HorizontalAlignment="Left" Margin="195,128,0,0" VerticalAlignment="Top" Height="143" Width="289" FontSize="20" FontWeight="Bold" Foreground="#FFD111E6"/>
+    <Grid Background="#FFB8BF7B" Margin="-118,-46,0,0">
+        <Label Content="Hello world!" HorizontalAlignment="Left" Margin="107,88,0,0" VerticalAlignment="Top" Height="183" Width="377" FontSize="20" FontWeight="Bold" Foreground="#FFD111E6"/>
+        <Label Content="Hi, my name is Peter Parker, and you don't remember me, but I have something to tell you that's going to sound crazy. But it's the truth, and I know you're going to believe me, because you're very good at telling when I'm lying.&#xD;&#xA;We used to know each other. We were together.&#xD;&#xA;But something bad was going to happen to the world. And the only way to stop it was to make everyone forget me, including you.&#xD;&#xA;Because I'm not just Peter Parker. I'm Spider-Man.&#xD;&#xA;And sometimes, Spider-Man has to do the hard thing. Even if it breaks Peter Parker's heart.&#xD;&#xA;Maybe I'll never read this to you. Maybe I'm just writing this for me. Maybe that's my responsibility, to live alone with the truth.&#xD;&#xA;But the truth is I love you. And I hope that deep down, something inside you remembers you love me too.&quot;" HorizontalAlignment="Left" Height="248" Margin="3,172,0,0" VerticalAlignment="Top" Width="905" FontSize="20" FontWeight="Bold" Background="#FFC50202"/>
 
     </Grid>
 </Window>
