@@ -41,8 +41,31 @@ namespace WpfApp2
             string name = nameTextBox.Text;
             string telephone = telNameTextBox.Text;
             string message = $"Name: {name}\nTelephone: {telephone}";
-            MessageBox.Show(message, "我的資訊", MessageBoxButton.OK);
+            MessageBox.Show(message, "我的資訊", MessageBoxButton.OK);      
 
         }
-    }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void computeButton_Click_2(object sender, RoutedEventArgs e)
+        {
+            int n= int.Parse(numberTextBox.Text);
+
+            string result = "";
+            for(int i=1;i <= n; i++)
+            {
+                for (int j = 1; j <= n; j++)
+                    result += $"{i}*{j}={i * j}\t";
+                result += "\n";
+            
+
+            }
+            resultTestBlock.Text = result;
+
+
+        }
+        }
 }

@@ -5,17 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#FF478F78" Margin="-118,-46,0,0">
-        <Label HorizontalAlignment="Left" Height="354" Margin="206,81,0,0" VerticalAlignment="Top" Width="578" FontSize="20" FontWeight="Bold" Background="#FF92D0CF">
-            <Label Content="程式視窗設計計計計計計" Height="124" Width="282" Background="#00000000" Foreground="#FF025ADC" FontFamily="Arial Black" FontWeight="Bold"/>
-        </Label>
-        <Label Content="姓名" HorizontalAlignment="Left" Margin="206,168,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FFE00F0F"/>
-        <Label Content="電話" HorizontalAlignment="Left" Margin="206,228,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FFFF000B"/>
-        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="280,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <TextBox x:Name="telNameTextBox" HorizontalAlignment="Left" Margin="280,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
-        <Label Content="Hello World!" HorizontalAlignment="Left" Margin="238,111,0,0" VerticalAlignment="Top" Height="78" Width="171" FontSize="20" FontFamily="Segoe UI Black" Foreground="#FF09518D"/>
-        <Button x:Name="okButton" Content="確認" HorizontalAlignment="Left" Height="52" Margin="459,192,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_1" Background="#FFF7C5F7" FontWeight="Bold" FontFamily="Sitka Display"/>
-
+        Title="MainWindow" Height="627" Width="964">
+    <Grid Background="#FF9ECCBD" Margin="-118,-46,-28,-75">
+        <Label Content="姓名" HorizontalAlignment="Left" Margin="207,168,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FF7F33D6" Background="{x:Null}" FontFamily="MV Boli"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="280,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" TextChanged="TextBox_TextChanged" Height="29"/>
+        <TextBox x:Name="telNameTextBox" HorizontalAlignment="Left" Margin="280,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" TextChanged="TextBox_TextChanged_1" Height="34"/>
+        <Label Content="Hello World!" HorizontalAlignment="Left" Margin="253,111,0,0" VerticalAlignment="Top" Height="78" Width="171" FontSize="20" FontFamily="Segoe UI Black" Foreground="#FF09518D"/>
+        <Button x:Name="okButton" Content="確認" HorizontalAlignment="Left" Height="52" Margin="474,192,0,0" VerticalAlignment="Top" Width="102" Click="Button_Click_1" Background="#FFF7C5F7" FontWeight="Bold" FontFamily="Sitka Display"/>
+        <TextBox x:Name="numberTextBox" HorizontalAlignment="Left" Margin="262,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" Height="54"/>
+        <Label Content="請輸入一個數值" HorizontalAlignment="Left" Height="54" Margin="129,322,0,0" VerticalAlignment="Top" Width="133" FontFamily="Noto Sans TC Medium" Background="{x:Null}" Foreground="#FFD8035F"/>
+        <Button HorizontalAlignment="Left" Height="45" Margin="475,318,0,0" VerticalAlignment="Top" Width="138" BorderBrush="#FFBBD819" Background="#FFD28EEF" Click="computeButton_Click_2" Content="顯示N*N乘法表"/>
+        <TextBlock x:Name="resultTestBlock" HorizontalAlignment="Left" Margin="138,393,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="314" Width="875" FontSize="22" Foreground="#FFB426FF" Background="#FF79C0A9"/>
+        <Label Content="5B3G0031   鍾濰遠" Background="#00000000" Foreground="#FF7258BA" FontFamily="Tempus Sans ITC" FontWeight="Bold" RenderTransformOrigin="0.848,0.471" FontSize="72" Margin="490,96,10,534"/>
+        <Label Content="程式視窗設計計計計計計" Background="#00000000" Foreground="#FF025ADC" FontFamily="Arial Black" FontWeight="Bold" RenderTransformOrigin="0.848,0.471" FontSize="36" IsEnabled="False" Margin="196,61,372,601"/>
+        <Label Content="電話" HorizontalAlignment="Left" Margin="207,222,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FF7F33D6" Background="{x:Null}" FontFamily="MV Boli"/>
     </Grid>
 </Window>
