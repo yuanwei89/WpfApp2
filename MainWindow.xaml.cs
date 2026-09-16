@@ -20,5 +20,29 @@ namespace WpfApp2
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string name = nameTextBox.Text;
+            string telephone = telNameTextBox.Text;
+            string message = $"Name: {name}\nTelephone: {telephone}";
+            MessageBox.Show(message, "我的資訊", MessageBoxButton.OK);
+
+        }
     }
 }

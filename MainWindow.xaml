@@ -6,9 +6,16 @@
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#FFB8BF7B" Margin="-118,-46,0,0">
-        <Label Content="Hello world!" HorizontalAlignment="Left" Margin="107,88,0,0" VerticalAlignment="Top" Height="183" Width="377" FontSize="20" FontWeight="Bold" Foreground="#FFD111E6"/>
-        <Label Content="Hi, my name is Peter Parker, and you don't remember me, but I have something to tell you that's going to sound crazy. But it's the truth, and I know you're going to believe me, because you're very good at telling when I'm lying.&#xD;&#xA;We used to know each other. We were together.&#xD;&#xA;But something bad was going to happen to the world. And the only way to stop it was to make everyone forget me, including you.&#xD;&#xA;Because I'm not just Peter Parker. I'm Spider-Man.&#xD;&#xA;And sometimes, Spider-Man has to do the hard thing. Even if it breaks Peter Parker's heart.&#xD;&#xA;Maybe I'll never read this to you. Maybe I'm just writing this for me. Maybe that's my responsibility, to live alone with the truth.&#xD;&#xA;But the truth is I love you. And I hope that deep down, something inside you remembers you love me too.&quot;" HorizontalAlignment="Left" Height="248" Margin="3,172,0,0" VerticalAlignment="Top" Width="905" FontSize="20" FontWeight="Bold" Background="#FFC50202"/>
+    <Grid Background="#FF478F78" Margin="-118,-46,0,0">
+        <Label HorizontalAlignment="Left" Height="354" Margin="206,81,0,0" VerticalAlignment="Top" Width="578" FontSize="20" FontWeight="Bold" Background="#FF92D0CF">
+            <Label Content="程式視窗設計計計計計計" Height="124" Width="282" Background="#00000000" Foreground="#FF025ADC" FontFamily="Arial Black" FontWeight="Bold"/>
+        </Label>
+        <Label Content="姓名" HorizontalAlignment="Left" Margin="206,168,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FFE00F0F"/>
+        <Label Content="電話" HorizontalAlignment="Left" Margin="206,228,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FFFF000B"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="280,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="telNameTextBox" HorizontalAlignment="Left" Margin="280,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+        <Label Content="Hello World!" HorizontalAlignment="Left" Margin="238,111,0,0" VerticalAlignment="Top" Height="78" Width="171" FontSize="20" FontFamily="Segoe UI Black" Foreground="#FF09518D"/>
+        <Button x:Name="okButton" Content="確認" HorizontalAlignment="Left" Height="52" Margin="459,192,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_1" Background="#FFF7C5F7" FontWeight="Bold" FontFamily="Sitka Display"/>
 
     </Grid>
 </Window>
